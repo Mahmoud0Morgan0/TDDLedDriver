@@ -10,4 +10,6 @@
 
 void ledDriverCreate(unsigned int *leds);
 void ledDriverTurnOn(int ledNumber);
+void ledDriverTurnOff(int ledNumber);
+void ledDriverAllOn(void);
 #endif /* LEDDRIVERPRODUCTION_LEDDRIVER_H_ */
